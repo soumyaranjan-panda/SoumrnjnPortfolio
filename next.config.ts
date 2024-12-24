@@ -8,6 +8,10 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "sm.ign.com",
+      },
+      {
+        protocol: "https",
         hostname: "assets-prd.ignimgs.com",
       },
     ],
