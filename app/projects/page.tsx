@@ -102,14 +102,14 @@ export default function ProjectShowcase() {
             <div
               key={project.id}
               className={`absolute inset-0 transition-opacity duration-500 ${
-                project.id === activeProject.id ? 'opacity-100' : 'opacity-0'
+                project.id === activeProject.id ? "opacity-100" : "opacity-0"
               }`}
             >
               <Image
                 src={project.imageUrl}
                 alt={project.title}
                 fill
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: "cover" }}
               />
             </div>
           ))}
@@ -121,14 +121,16 @@ export default function ProjectShowcase() {
         {projects.map((project, index) => (
           <div
             key={project.id}
-            ref={(el) => (projectRefs.current[index] = el)}
+            ref={(el) => {
+              projectRefs.current[index] = el;
+            }}
             data-project-id={project.id}
             className="min-h-[60vh] md:min-h-screen flex flex-col justify-center p-8 border-b border-gray-800"
           >
             <h2 className="text-3xl font-bold mb-4">{project.title}</h2>
             <p className="text-lg mb-8 text-gray-300">{project.description}</p>
             <div className="flex space-x-4">
-              <Link 
+              <Link
                 href={project.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -156,19 +158,19 @@ export default function ProjectShowcase() {
             <div
               key={project.id}
               className={`absolute inset-0 transition-opacity duration-500 ${
-                project.id === activeProject.id ? 'opacity-100' : 'opacity-0'
+                project.id === activeProject.id ? "opacity-100" : "opacity-0"
               }`}
             >
               <Image
                 src={project.imageUrl}
                 alt={project.title}
                 fill
-                style={{ objectFit: 'contain' }}
+                style={{ objectFit: "contain" }}
               />
             </div>
           ))}
         </div>
       </div>
     </div>
-  )
+  );
 }
