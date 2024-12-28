@@ -4,7 +4,7 @@ import { Book, Code, Coffee } from 'lucide-react'
 export default function AboutMe() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-700 to-black p-8">
-      <div className="max-w-3xl mx-auto space-y-12">
+      <div className="max-w-3xl mx-auto space-y-12 mb-16">
         <header className="text-center">
           <Image
             src="/favicon.svg?height=200&width=200"
@@ -48,8 +48,8 @@ export default function AboutMe() {
             <li className="flex items-start">
               <Coffee className="mr-4 text-blue-500 flex-shrink-0" size={24} />
               <div>
-                <h3 className="font-semibold text-gray-800">Continuous Learning</h3>
-                <p className="text-gray-600">
+                <h3 className="font-semibold text-white">Continuous Learning</h3>
+                <p className="text-gray-200">
                   The tech world is always evolving, and I&apos;m committed to growing with it. Whether 
                   it&apos;s a new framework, language, or design pattern, I&apos;m always eager to expand my 
                   knowledge and improve my craft.
@@ -59,8 +59,8 @@ export default function AboutMe() {
             <li className="flex items-start">
               <Book className="mr-4 text-blue-500 flex-shrink-0" size={24} />
               <div>
-                <h3 className="font-semibold text-gray-800">Sharing Knowledge</h3>
-                <p className="text-gray-600">
+                <h3 className="font-semibold text-white">Sharing Knowledge</h3>
+                <p className="text-gray-200">
                   I believe in the power of community and knowledge sharing. Whether it&apos;s through 
                   mentoring, writing technical articles, or contributing to open-source projects, 
                   I aim to give back to the developer community.
@@ -70,9 +70,9 @@ export default function AboutMe() {
           </ul>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6 space-y-4">
-          <h2 className="text-2xl font-semibold text-gray-800">Beyond Coding</h2>
-          <p className="text-gray-600 leading-relaxed">
+        <section className="bg-gray-800 rounded-lg shadow-md p-6 space-y-4">
+          <h2 className="text-2xl font-semibold text-white">Beyond Coding</h2>
+          <p className="text-gray-200 leading-relaxed">
             When I&apos;m not immersed in code, you can find me [Your Hobbies or Interests, e.g., 
             &quot;exploring hiking trails, experimenting with new cooking recipes, or diving into a 
             good sci-fi novel&quot;]. I believe in maintaining a healthy work-life balance and finding 

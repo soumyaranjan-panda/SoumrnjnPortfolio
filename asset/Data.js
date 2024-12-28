@@ -9,6 +9,49 @@ import {
   IconTimeline,
 } from "@tabler/icons-react";
 
+export const ProjectsData = [
+  {
+    id: 1,
+    title: "E-commerce Platform",
+    description:
+      "A fully responsive e-commerce platform built with Next.js and Tailwind CSS. Features include product listings, cart functionality, and secure checkout process.",
+    imageUrl:
+      "https://sm.ign.com/ign_in/image/t/the-top-25/the-top-25-greatest-anime-characters-of-all-time_fk9t.jpg",
+    githubUrl: "https://github.com/yourusername/ecommerce-platform",
+    liveUrl: "https://ecommerce-platform-demo.vercel.app",
+  },
+  {
+    id: 2,
+    title: "Task Management App",
+    description:
+      "A sleek task management application developed using React and Redux. Includes features like task creation, assignment, due dates, and progress tracking.",
+    imageUrl:
+      "https://sm.ign.com/ign_in/image/t/the-top-25/the-top-25-greatest-anime-characters-of-all-time_zjmz.jpg",
+    githubUrl: "https://github.com/yourusername/task-management-app",
+    liveUrl: "https://task-management-app-demo.vercel.app",
+  },
+  {
+    id: 3,
+    title: "Social Media Dashboard",
+    description:
+      "An intuitive social media dashboard that aggregates data from various platforms. Built with Vue.js and D3.js for dynamic data visualization.",
+    imageUrl:
+      "https://sm.ign.com/ign_in/image/t/the-top-25/the-top-25-greatest-anime-characters-of-all-time_g9qk.jpg",
+    githubUrl: "https://github.com/yourusername/social-media-dashboard",
+    liveUrl: "https://social-media-dashboard-demo.vercel.app",
+  },
+  {
+    id: 4,
+    title: "Fitness Tracking App",
+    description:
+      "A comprehensive fitness tracking app developed with React Native. Features include workout logging, progress charts, and integration with wearable devices.",
+    imageUrl:
+      "https://sm.ign.com/ign_in/image/t/the-top-25/the-top-25-greatest-anime-characters-of-all-time_fb1n.jpg",
+    githubUrl: "https://github.com/yourusername/fitness-tracking-app",
+    liveUrl: "https://fitness-tracking-app-demo.vercel.app",
+  },
+];
+
 export const TimeLogData = [
   {
     title: "2024",
@@ -175,13 +218,6 @@ export const NavBarData = [
     href: "/about",
   },
   {
-    title: "Skills",
-    icon: (
-      <IconBrain className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-    ),
-    href: "/skills",
-  },
-  {
     title: "Projects",
     icon: (
       <IconBulb className="h-full w-full text-neutral-500 dark:text-neutral-300" />
@@ -194,6 +230,13 @@ export const NavBarData = [
       <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
     href: "/contact",
+  },
+  {
+    title: "Blogs",
+    icon: (
+      <IconBrain className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    ),
+    href: "/blogs",
   },
   {
     title: "Experience",
