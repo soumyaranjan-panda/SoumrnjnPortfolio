@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {ProjectsData} from "@/asset/Data"
+import { ProjectsData } from "@/asset/Data";
 
 interface Project {
   id: number;
@@ -14,7 +14,7 @@ interface Project {
   liveUrl: string;
 }
 
-const projects: Project[] = ProjectsData
+const projects: Project[] = ProjectsData;
 
 export default function ProjectShowcase() {
   const [activeProject, setActiveProject] = useState(projects[0]);
@@ -54,25 +54,27 @@ export default function ProjectShowcase() {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-black text-white">
+    <div className="flex flex-col md:flex-row min-h-screen bg-black text-white ">
       {/* Mobile Image Container */}
-      <div className="md:hidden sticky top-0 h-[40vh] z-10">
-        <div className="relative w-full h-full">
-          {projects.map((project) => (
-            <div
-              key={project.id}
-              className={`absolute inset-0 transition-opacity duration-500 ${
-                project.id === activeProject.id ? "opacity-100" : "opacity-0"
-              }`}
-            >
-              <Image
-                src={project.imageUrl}
-                alt={project.title}
-                fill
-                style={{ objectFit: "cover" }}
-              />
-            </div>
-          ))}
+      <div className="md:hidden sticky top-0 h-[40vh] z-10 ">
+        <div className="relative w-full h-full no-scrollbar">
+          {projects
+            .sort((a, b) => a.id - b.id)
+            .map((project) => (
+              <div
+                key={project.id}
+                className={`absolute inset-0 transition-opacity duration-500 ${
+                  project.id === activeProject.id ? "opacity-100" : "opacity-0"
+                }`}
+              >
+                <Image
+                  src={project.imageUrl}
+                  alt={project.title}
+                  fill
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+            ))}
         </div>
       </div>
 

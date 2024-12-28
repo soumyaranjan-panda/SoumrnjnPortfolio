@@ -11,44 +11,113 @@ import {
 
 export const ProjectsData = [
   {
-    id: 1,
-    title: "E-commerce Platform",
-    description:
-      "A fully responsive e-commerce platform built with Next.js and Tailwind CSS. Features include product listings, cart functionality, and secure checkout process.",
-    imageUrl:
-      "https://sm.ign.com/ign_in/image/t/the-top-25/the-top-25-greatest-anime-characters-of-all-time_fk9t.jpg",
-    githubUrl: "https://github.com/yourusername/ecommerce-platform",
-    liveUrl: "https://ecommerce-platform-demo.vercel.app",
+    id: 13,
+    title: "Ecomzy",
+    description: "Shop Shop Shop",
+    imageUrl: "/ecomzy.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/BlogSoumya",
+    liveUrl: "https://shop-soumrnjn.netlify.app/",
   },
   {
-    id: 2,
-    title: "Task Management App",
-    description:
-      "A sleek task management application developed using React and Redux. Includes features like task creation, assignment, due dates, and progress tracking.",
-    imageUrl:
-      "https://sm.ign.com/ign_in/image/t/the-top-25/the-top-25-greatest-anime-characters-of-all-time_zjmz.jpg",
-    githubUrl: "https://github.com/yourusername/task-management-app",
-    liveUrl: "https://task-management-app-demo.vercel.app",
+    id: 12,
+    title: "Sports Website",
+    description: "Lets football ",
+    imageUrl: "/sports_app.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/SportsWebsite",
+    liveUrl: "https://sports-website-sable.vercel.app/",
   },
   {
-    id: 3,
-    title: "Social Media Dashboard",
+    id: 11,
+    title: "Razorpay Clone",
+    description: "Razorpay clone using react, tailwind and javascript ",
+    imageUrl: "/razorpay_clone.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/RazorPayClone",
+    liveUrl: "https://razor-pay-clone-opal.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Tic-Tac-Toe",
+    description: "Game",
+    imageUrl: "/tictactoe.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/SID_t1",
+    liveUrl: "https://tictactoe-soumrnjn.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "Weather App",
+    description: "Our weather app is a user-friendly and intuitive web application built using HTML, CSS, and JavaScript. It provides real-time weather information for any location worldwide. With a clean and modern design, users can easily navigate through the app to find the weather forecast for their desired location.",
+    imageUrl: "/weather_app.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/Weather-app",
+    liveUrl: "https://weatherapp-soumrnjn.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Coder.",
+    description: "Basically a Portfolio",
+    imageUrl: "/portfolio_old.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/SID_t1",
+    liveUrl: "https://sid-t1.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Dost App",
     description:
-      "An intuitive social media dashboard that aggregates data from various platforms. Built with Vue.js and D3.js for dynamic data visualization.",
-    imageUrl:
-      "https://sm.ign.com/ign_in/image/t/the-top-25/the-top-25-greatest-anime-characters-of-all-time_g9qk.jpg",
-    githubUrl: "https://github.com/yourusername/social-media-dashboard",
-    liveUrl: "https://social-media-dashboard-demo.vercel.app",
+      "Introducing Dostapp, a user-friendly mobile platform designed to bridge the gap between animal shelters and potential pet adopters. Dostapp allows NGOs to showcase animals available for adoption, complete with detailed descriptions, photos, and videos. This enables users to explore potential pets from the comfort of their homes, fostering a seamless and convenient adoption process. Users can easily contact NGOs through the app to arrange visits and complete the adoption formalities.",
+    imageUrl: "/dost_app.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/Dostapp",
+    liveUrl: "https://github.com/soumyaranjan-panda/Dostapp/releases/tag/v1.4",
   },
   {
     id: 4,
-    title: "Fitness Tracking App",
+    title: "Rakhsak",
     description:
-      "A comprehensive fitness tracking app developed with React Native. Features include workout logging, progress charts, and integration with wearable devices.",
-    imageUrl:
-      "https://sm.ign.com/ign_in/image/t/the-top-25/the-top-25-greatest-anime-characters-of-all-time_fb1n.jpg",
-    githubUrl: "https://github.com/yourusername/fitness-tracking-app",
-    liveUrl: "https://fitness-tracking-app-demo.vercel.app",
+      "Our visionary project leverages the latest in technology, employing accelerometers and sensors to detect accidents in real-time, and subsequently sending immediate alerts to authorities for swift and effective response.",
+    imageUrl: "/rakhsak.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/SIHv3",
+    liveUrl: "https://si-hv3.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "CGPA Calculator v2",
+    description: "CGPA/SGPA Calculator version 2",
+    imageUrl: "/cgpa_calc_v2.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/cgpa_calc",
+    liveUrl: "https://cgpa-calc-alpha.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "CGPA Calculator v1",
+    description: "CGPA/SGPA Calculator version 1",
+    imageUrl: "/cgpa_calc_v1.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/CGPAcalc",
+    liveUrl: "https://cgpacal.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Portfolio",
+    description:
+      "A sleek task management application developed using React and Redux. Includes features like task creation, assignment, due dates, and progress tracking.",
+    imageUrl: "/portfolio.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/SoumrnjnPortfolio",
+    liveUrl: "https://www.soumrnjnhub.xyz/",
+  },
+  {
+    id: 2,
+    title: "Sync Art",
+    description:
+      "A real-time collaborative application built with React, TypeScript, and socket.io, designed for seamless synchronization and interaction between users in different rooms. The frontend is hosted on Vercel, and the backend is deployed on Render.",
+    imageUrl: "/sync-art.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/SyncArt",
+    liveUrl: "https://sync-art.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Connectly",
+    description:
+      "Connectly is a modern blogging platform where users can write, share, and discover engaging content. Built with trending technologies, it offers a sleek and responsive experience for creators and readers alike.",
+    imageUrl: "/connectly.png",
+    githubUrl: "https://github.com/soumyaranjan-panda/Connectly",
+    liveUrl: "https://connectly-nine.vercel.app/",
   },
 ];
 
